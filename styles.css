@@ -1,0 +1,91 @@
+:root {
+  --bg: #0e1222;
+  --panel: #161b34;
+  --text: #f7f7ff;
+  --accent: #4cd964;
+  --danger: #ff4f6d;
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: radial-gradient(circle at top, #1d2541 0%, #090b18 100%);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+.container {
+  width: min(100%, 720px);
+  padding: 28px;
+  border-radius: 22px;
+  background: rgba(16, 20, 39, 0.95);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+h1 {
+  margin: 0 0 16px;
+  text-align: center;
+  font-size: 2rem;
+}
+.status-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+#gameCanvas {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: #090a15;
+  position: relative;
+  justify-self: center;
+
+ 
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+button {
+  min-width: 110px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3d84ff, #35d5a6);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.18s ease, filter 0.18s ease;
+}
+button:hover {
+  transform: translateY(-1px);
+}
+button:active {
+  transform: translateY(0);
+}
+.message {
+  margin-top: 16px;
+  text-align: center;
+  min-height: 1.4em;
+}
+.message.error {
+  color: var(--danger);
+}
+.message.success {
+  color: var(--accent);
+}
