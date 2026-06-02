@@ -1,6 +1,7 @@
 # Snake Game Project
 
 A simple browser game built with HTML, CSS, and JavaScript.
+link:https://snake-game-tpfk.onrender.com
 
 ## How to run
 
@@ -11,6 +12,6 @@ A simple browser game built with HTML, CSS, and JavaScript.
 
 ## Files
 
-- `index.html` — user interface and canvas container
-- `styles.css` — styling for layout and controls
-- `script.js` — game logic, rendering, and input handling
+- `index.html` â€” user interface and canvas container
+- `styles.css` â€” styling for layout and controls
+- `script.js` â€” game logic, rendering, and input handling
