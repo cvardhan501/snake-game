@@ -6,7 +6,11 @@ const startButton = document.getElementById('startButton');
 const restartButton = document.getElementById('restartButton');
 
 const gridSize = 20;
-const tileCount = canvas.width / gridSize;
+const tileCount = canvas.wgit remote add origin https://github.com/YOUR_USERNAME/snake-game.git
+git branch -M main
+git push -u origin maingit remote add origin https://github.com/YOUR_USERNAME/snake-game.git
+git branch -M main
+git push -u origin mainidth / gridSize;
 const maxSpeed = 14;
 let snake = [{ x: 10, y: 10 }];
 let velocity = { x: 0, y: 0 };
