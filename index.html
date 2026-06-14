@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -17,6 +17,32 @@
     <div class="button-row">
       <button id="startButton">Start</button>
       <button id="restartButton">Restart</button>
+    </div>
+    <p id="message" class="message">Press Start to begin.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+  <div class="container">            <!--outer box-->
+    <h1>Snake Game</h1>
+    <div class="status-bar">    <!--inner box-->
+      <span>Score:</span>
+      <strong id="score">0</strong>
+    </div>
+     <canvas id="gameCanvas" width="500" height="500"></canvas> <!--  game board -->
+    <div class="button-row">                                                      
+      <button id="startButton">Start</button>
+      <button id="restartButton">Restart</button>
+      <button id="muteButton">Mute</button>
     </div>
     <p id="message" class="message">Press Start to begin.</p>
   </div>
