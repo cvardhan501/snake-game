@@ -27,7 +27,7 @@ body {
   border-radius: 22px;
   background: rgba(16, 20, 39, 0.95);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgb(47, 255, 113);
 }
 h1 {
   margin: 0 0 16px;
@@ -47,7 +47,7 @@ h1 {
   max-width: 500px;
   height: auto;
   border-radius: 18px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgb(216, 16, 16);
   background: #090a15;
   position: relative;
   justify-self: center;
@@ -70,7 +70,10 @@ button {
   color: white;
   font-weight: 700;
   cursor: pointer;
-  transition: transform 0.18s ease, filter 0.18s ease;
+  transition: transform 0.18s ease, filter 0.18s ease, background 0.3s;
+}
+button.muted {
+  background: #555;
 }
 button:hover {
   transform: translateY(-1px);
